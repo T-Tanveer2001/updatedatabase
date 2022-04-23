@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:backgroundTint="#9CE4ED"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="323dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="#101010" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="330dp"
+        android:layout_height="87dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="surname"
+        android:inputType="textPersonName"
+        android:textColor="#101010" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="328dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint=" marks"
+        android:inputType="textPersonName"
+        android:textColor="#101010" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="326dp"
+        android:layout_height="83dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Semester"
+        android:inputType="textPersonName"
+        android:textColor="#101010" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="328dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint=" gpa"
+        android:inputType="textPersonName"
+        android:textColor="#101010" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="323dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint=" department"
+        android:inputType="textPersonName"
+        android:textColor="#101010" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="onclick"
+        android:text="ADDDATA" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="onClick"
+        android:text="VIEWDATA" />
+</LinearLayout>
